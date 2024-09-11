@@ -1,0 +1,32 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "role": "admin",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "role": "editor",
+        "isActive": false
+      },
+      {
+        "id": 3,
+        "name": "Michael Johnson",
+        "email": "michael.johnson@example.com",
+        "role": "viewer",
+        "isActive": true
+      },
+      {
+        "id": 4,
+        "name": "Emily Davis",
+        "email": "emily.davis@example.com",
+        "role": "admin",
+        "isActive": true
+      }
+    ]
+}
