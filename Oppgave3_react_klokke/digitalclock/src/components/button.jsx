@@ -1,13 +1,18 @@
 import './css/button.css'
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 
 export default function MyButton(){
 
     const[click, setClick] = useState(0)
 
     function buttonClick(){
-        setClick(click + 1)
+        setClick(click + 1 )
+        
     }
+
+    useEffect (() => {
+        console.log(click)
+    }, [click])
 
     return (
         <button className="buttonStyle" onClick={buttonClick}>
@@ -15,3 +20,4 @@ export default function MyButton(){
         </button>
     );
 }
+

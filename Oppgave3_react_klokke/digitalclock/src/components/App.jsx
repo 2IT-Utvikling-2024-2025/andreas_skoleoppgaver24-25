@@ -3,6 +3,7 @@ import MyButton from './button.jsx'
 import Clock from './clock.jsx'
 import Klassekart from './Klassekart.jsx'
 import MyList from './MyList'
+import ColorButton from './ColorChangeButton'
 
 //En React komponent er en JS funksjon som returnerer en HTML tag.
 
@@ -23,7 +24,8 @@ function App() {
     {/* <Clock /> */}
     {/* <Klassekart /> */}
     {/* <MyList /> */}
-    <p>{user.name} <br /> {user.age} år og bor i {user.adresse}</p>
+    {/* <p>{user.name} <br /> {user.age} år og bor i {user.adresse}</p> */}
+    <ColorButton />
       
     </div>
   )
