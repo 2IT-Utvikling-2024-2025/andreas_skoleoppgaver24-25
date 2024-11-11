@@ -1,0 +1,93 @@
+{
+    
+    "Section1": [
+        {
+            "id": 1,
+            "name": "Wonjoong",
+            "age": 18
+        },
+        {
+            "id": 2,
+            "name": "Marcus",
+            "age": 17
+        }
+        
+    ],
+    "Section2": [
+        {
+            "id": 3,
+            "name": "Jørgen",
+            "age": 19
+        },
+        {
+            "id": 4,
+            "name": "Felix",
+            "age": 16
+        },
+        {
+            "id": 5,
+            "name": "Noah",
+            "age": 17
+        }
+    ],
+    "Section3": [
+        {
+            "id": 6,
+            "name": "Svein",
+            "age": 17
+        },
+        {
+            "id": 7,
+            "name": "Theo",
+            "age": 17
+        }
+    ],
+    "Section4": [
+        {
+            "id": 8,
+            "name": "Kevin",
+            "age": 18
+        },
+        {
+            "id": 9,
+            "name": "Andreas",
+            "age": 17
+        },
+        {
+            "id": 10,
+            "name": "Nahuel",
+            "age": 17
+        }
+    ],
+    "Section5": [
+        {
+            "id": 9,
+            "name": "Odin",
+            "age": 16
+        },
+        {
+            "id": 10,
+            "name": "Håkon",
+            "age": 17
+        }
+    ],
+    "Section6": [
+        {
+            "id": 11,
+            "name": "Filip",
+            "age": 17
+        },
+        {
+            "id": 12,
+            "name": "Luz",
+            "age": 20
+        },
+        {
+            "id": 13,
+            "name": "Fritjof",
+            "age": 20
+        }
+    ]
+        
+    
+}

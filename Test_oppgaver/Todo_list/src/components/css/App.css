@@ -4,3 +4,54 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+/* css-en til Layout siden */
+
+
+#Layout-nav {
+  display: flex;
+  justify-content: center;
+}
+
+#Layout-ul {
+  padding-inline-start: 0px;
+  border: 2px solid white;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  width: 400px;
+ 
+
+}
+
+#Layout-li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;;
+  /* border-bottom: 1px solid white; */
+}
+
+/* css-en til Classlist.jsx */
+.Section-parent{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Section {
+  display: flex;
+/*   justify-content: space-around; */
+  flex-wrap: wrap;
+  margin: 50px;
+}
+.Student {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  min-width: 150px;
+  margin: 20px;
+}
