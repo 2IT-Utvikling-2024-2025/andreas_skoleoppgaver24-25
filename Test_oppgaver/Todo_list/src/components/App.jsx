@@ -13,6 +13,8 @@ import Home from './Home.jsx'
 import About from './About.jsx'
 import Layout from './Layout.jsx'
 import Classlist from './Classlist.jsx'
+import PersonInfo from './PersonInfo.jsx'
+import ClassInfo from './classInfo.jsx'
 
 import NoPage from './NoPage.jsx'
 
@@ -31,14 +33,22 @@ export default function App() {
     {/* <Vokal /> */}
     {/* <KlasseKart /> */}
 
+    
+
     <BrowserRouter>
       <Layout />
       <Routes>
         <Route path='/'/>
-          <Route index element={<Home />} />
-          <Route path='about' element={<About />} />
-          <Route path='classlist' element={<Classlist />} />
-          <Route path='*' element={<NoPage />} />
+        <Route index element={<Home />} />
+        <Route path='about' element={<About />} />
+        <Route path='classlist' element={<Classlist />} />
+        <Route path='personinfo/:name' element={<PersonInfo />} />
+        <Route path='classinfo/:id' element={<ClassInfo />} />
+
+        
+
+        <Route path='*' element={<NoPage />} />
+          
       </Routes>
     </BrowserRouter>
 

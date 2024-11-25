@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import '../assets/sverigeFlagg.png'
+import sverigeFlagg from '../assets/sverigeFlagg.png'
 import './css/App.css'
 import Danmark from './danmark.jsx'
 import Italia from './italia.jsx'
 import Kanada from './kanada.jsx'
 import Sverige from './sverige.jsx'
+import GfGWeatherApp from './weather.jsx'
 
 function App() {
 
@@ -26,6 +27,11 @@ function App() {
 
   return (
     <>
+
+    {/* <GfGWeatherApp /> */}
+
+    {/* <img src={sverigeFlagg} alt="svensk flagg" width="500" height="600"/> */}
+
     <h1>Skis Reise Guide</h1>
 
     <h3>Det er mange fine steder i verden å besøke. 

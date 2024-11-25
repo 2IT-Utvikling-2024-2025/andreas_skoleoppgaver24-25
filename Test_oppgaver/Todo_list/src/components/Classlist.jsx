@@ -13,7 +13,7 @@ export default function Classlist(){
 
         <h1>Classlist</h1>
 
-        <ClasslistInput />
+        {/* <ClasslistInput /> */}
         <Section />
 
 

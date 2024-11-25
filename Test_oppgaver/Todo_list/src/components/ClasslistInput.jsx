@@ -5,7 +5,6 @@ export default function ClasslistInput(){
     const [inputName, setInputName] = useState("")
     const [inputAge, setInputAge] = useState(0)
 
-
     function submit(){
         event.preventDefault();
 
